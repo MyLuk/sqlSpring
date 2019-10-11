@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hb05manytomany" />
+        <module name="hb04onetomanyuni" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hb04onetomanyuni" target="7" />
+      <module name="hb05manytomany" target="7" />
+      <module name="sqlSpring" target="7" />
+      <module name="sqlSpring (1)" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
